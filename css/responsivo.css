@@ -1,0 +1,28 @@
+@media (max=width: 1200px){
+
+    .menu .conteiner {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px;
+    }
+
+  .main .conteiner .Retangulo .Titulo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+ .main .conteiner .Retangulo .Texto{
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .container .botao-trailer {
+        background-color: #263238;
+    }
+}
+
+@media (max-width: 500px) {
+    
+}
