@@ -1,4 +1,5 @@
 .body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     align-items: center;
     background-color: aqua;
@@ -6,7 +7,8 @@
 }
 
 .main{
-    background-color: #7D889E;
+    background-color: #a4b0c7;
+    overflow: hidden;
 }
 .main .conteiner {
     align-items: center;
@@ -28,7 +30,7 @@
     position: absolute;
     top: 100%;
     left: 50%;
-    transform: translate(-50%, 15%);
+    transform: translate(-50%, 21%);
   
 }
 
@@ -49,6 +51,7 @@
     left: 50%;
     transform: translate(-50%, 0%);
     width: 250px;
+    margin-bottom: 3px;
 }
 
 .main .conteiner .Retangulo .Texto{
@@ -58,4 +61,5 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 280px;
+    font-size: medium;
 }
